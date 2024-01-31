@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { EcommerceGen } from "./component/EcommerceGen";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { DiscoverUs } from "./component/DiscoverUs";
+import { Header } from "./component/Header";
+import { SignUp } from "./component/SignUp";
+import { Login } from "./component/Login";
+import { SuccessSignUp } from "./component/SuccessSignUp";
+import { ShowProduct } from "./component/ShowProduct";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<EcommerceGen />} />
+          <Route path="/DicoverUs" element={<DiscoverUs />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/:product" element={<ShowProduct />} />
+          <Route path="/SuccessSignUp" element={<SuccessSignUp />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,37 @@
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .imageShopp {
+    width: 93%;
+    margin-top: 20px;
+    height: 90%;
+}
+  .cardb {
+    padding: auto !important;
+    height: 635px !important;
+    width: 989px !important;
+    background-color: #ab5326d6;
+    color: white;
+    margin: 10% !important;
+}
+@media (width: 390px) {
+  .cardb{
+    transform: translate(-199%,-23%);
+    width: 356px !important;
+    height: 542px !important;
+  }
+  .imageShopp{
+    height: 51%;
+    width: 194%;
+  }
+  .discText{
+    font-size: 7pt;
+    width: 111%;
+  }
+  .cardStyle {
+    height: 524px !important;
+    width: 92% !important;
+}
+  }

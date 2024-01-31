@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 390px) {
+  body {
+    width: 392px !important;
+    height: 1000vh !important;
+    overflow-x: hidden !important; 
+  }
+  }

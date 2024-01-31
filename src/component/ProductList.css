@@ -1,0 +1,32 @@
+.container{
+    width: 1800px;
+}
+.card{
+    width: 250px;
+}
+.card-img-top{
+    height: 130px;
+}
+.headerStyle{
+    transform: translateY(0%);
+}
+
+ @media (width: 390px) {
+    
+    .card{
+        width: 185px !important;
+        height: 450px !important;
+    }
+    .row{
+        display: grid !important;
+        grid-template-columns: 186px 186px !important;
+
+    }
+    body {
+        height: 500vh;
+        overflow-y: scroll; /* Add a scrollbar if content overflows */
+      }
+
+    } 
+
+

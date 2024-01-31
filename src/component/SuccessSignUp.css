@@ -1,0 +1,16 @@
+@media (width: 390px) {
+    .dialog{
+        transform: translate(-3%,-31%);
+        width: 415px !important;
+        height: 1329px;
+    
+     }
+     Dialog{
+        width: 415px !important;
+        height: 222px !important;
+     }
+     body{
+        overflow-y: hidden!important;
+        height: 100vh !important;
+     }
+    }

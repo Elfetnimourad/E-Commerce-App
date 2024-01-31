@@ -1,0 +1,104 @@
+.header{
+    height: 80px ;
+    width: 100%;
+    background-color: #eee;
+}
+.iconHandel{
+   float: right; 
+ margin: 28px;
+ margin-right: 50px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 15%;
+    margin-top: -1%;
+    
+}
+.cardc{
+    height: 350px !important;
+    margin: 5px;
+    width: 400px !important;
+}
+.card-img-topc{
+    width: 30% !important;
+margin-left: -7%;
+}
+.card-textc{
+    font-size: 12px !important;
+}
+.card-bodyc{
+    transform:translate(-5%,0%);
+    text-align: start;
+}
+.deleteButton{
+    float:right !important;
+    transform: translateY(129%);
+    z-index: 2222;
+}
+ .ShoppingCartIcon{
+color: black;
+transform: translate(25%, 1%);
+}
+.someBtn{
+    float: left;
+color: white;
+
+}
+.spanCost{
+    float: left;
+}
+.span{
+    padding-right: 10px;
+    float: right;
+}
+.avatarElem{
+    width: 82%;
+}
+.ArrowForwardIcon{
+    float: right;
+}
+.badge{
+    transform:translate(-52%,0%);
+}
+.avatarEleme {
+    transform: translate(205%,0%);}
+@media (width: 390px) {
+    .avatarEleme {
+        width: 3% !important;
+        transform: translate(-2707%,-111%);}
+.sign-up{
+    width: 100%;
+}
+.avatarElem{
+    width: 100%;
+} 
+
+.signBtn{
+    transform: translate(285px,-231%);
+    margin-left: 5px;
+    margin-right: 8px;
+
+}
+.iconHandel{
+    width: 100%;
+}
+.ShoppingCartIcon{
+    transform: translate(41%,10%) !important;    }
+.badge{
+    transform: translate(879%,-380%) !important;
+}
+.cardc{
+    transform: translateX(-82%);
+    width: 500% !important;
+    height: 542px !important;
+}
+
+.card-bodyc{
+    transform: translate(35%,-4%);}
+.btn-close{
+    float: right !important;
+    transform: translate(-14%,195%);
+}
+
+}
